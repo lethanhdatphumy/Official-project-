@@ -5,8 +5,8 @@ import seaborn as sns
 
 
 
-df = pd.read_csv("GOD'sDATA.csv")
-df.columns = df.columns.str.strip()
+data = pd.read_csv("GOD'sDATA.csv")
+data.columns = data.columns.str.strip()
 
 year = st.sidebar.slider('Select a Year Range', 1990, 2020, (1990, 2020))
 
